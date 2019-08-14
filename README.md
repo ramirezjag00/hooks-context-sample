@@ -11,3 +11,6 @@
 - axios
 - semantic ui
 - endpoints from: `https://jsonplaceholder.typicode.com`
+
+### NOTE:
+Current styling is crap. A better implementation is to use a stylesheet for each theme that will be implemented.
