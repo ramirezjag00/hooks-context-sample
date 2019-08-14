@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import useResources from './useResources';
-import ThemeContext from './ThemeContext';
+import useResources from '../utils/useResources';
+import ThemeContext from '../contexts/ThemeContext';
 
 const ResourceList = ({ resource, textStyle }) => {
   const resources = useResources(resource);

@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import ThemeContext from './ThemeContext';
+import ThemeContext from '../contexts/ThemeContext';
 import ResourceButtons from './ResourceButtons';
 import ResourceList from './ResourceList';
 

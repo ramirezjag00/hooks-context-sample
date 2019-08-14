@@ -1,5 +1,5 @@
 import React from 'react';
-import { ThemeStore } from './ThemeContext';
+import { ThemeStore } from '../contexts/ThemeContext';
 import Content from './Content';
 
 const App = () => {
