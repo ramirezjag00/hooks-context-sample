@@ -1,6 +1,6 @@
 # hooks-context-sample
 
-### A simple application of Hooks for component state management, Context for Theming and simple test using `testing-library/react`:
+### A simple application of Hooks for component state management, Context for Theming and basic tests using `testing-library/react`:
 - useState
 - useEffect
 - customHook
