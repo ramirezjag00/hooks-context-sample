@@ -8,7 +8,7 @@ const Content = () => {
     const { theme } = useContext(ThemeContext);
     return (
       <div className='ui container' style={!theme ? styles.container : {}}>
-        <h2 className={`ui header`}>React Hooks and Context</h2>
+        <h2 className='ui header'>React Hooks and Context</h2>
         <ResourceButtons setResource={setResource} />
         <ResourceList resource={resource} textStyle={styles.textStyle} />
       </div>
