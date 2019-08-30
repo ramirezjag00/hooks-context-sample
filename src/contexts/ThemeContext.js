@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Context = React.createContext(true);
 
-export const ThemeStore = ({ children }) => {
+const ThemeStore = ({ children }) => {
   const [theme, setTheme] = useState(true);
   const changeTheme = () => setTheme(!theme);
   return (
@@ -12,4 +12,4 @@ export const ThemeStore = ({ children }) => {
   );
 }
 
-export default Context;
+export { ThemeStore, Context as default };
